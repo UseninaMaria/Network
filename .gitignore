@@ -1,0 +1,4 @@
+.idea/
+.gradle/
+build/
+/client/src/main/java/ClientWindow.java
