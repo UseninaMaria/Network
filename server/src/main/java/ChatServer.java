@@ -5,7 +5,7 @@ import java.net.ServerSocket;
 import java.util.ArrayList;
 
 public class ChatServer implements TCPConnectionListener {
-   private static final String SETTINGS = "C:\\Users\\seper\\IdeaProjects\\Network\\server\\settings.txt";
+   private static final String SETTINGS = "server/settings.txt";
 
     public static void main(String[] args) {
         new ChatServer();

@@ -8,7 +8,7 @@ public class Client implements TCPConnectionListener {
     static int PORT;
     private TCPConnection connection;
     private String nickname;
-    private static final String SETTINGS = "C:\\Users\\seper\\IdeaProjects\\Network\\client\\settings.txt";
+    private static final String SETTINGS = "client/settings.txt";
 
     public static void main(String[] args) {
         setSettings();
